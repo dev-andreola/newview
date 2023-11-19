@@ -37,7 +37,7 @@
   button {
     padding: 0.5rem 1rem;
     color: #fff;
-    background: #218c74;
+    background: var(--color-subtext);
     font-family: var(--font-family);
     white-space: nowrap;
     font-weight: 500;
@@ -49,7 +49,7 @@
     cursor: pointer;
     transition: 0.3s;
     &:hover {
-      background-color: #218c75ce;
+      background-color: var(--color-subtext-hover);
     }
   }
 

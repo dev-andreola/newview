@@ -32,7 +32,7 @@
 .newview__navbar button {
   padding: 0.5rem 1rem;
   color: #fff;
-  background: #218c74;
+  background: var(--color-subtext);
   font-family: var(--font-family);
   white-space: nowrap;
   font-weight: 500;
@@ -45,7 +45,7 @@
   transition: 0.3s;
 }
 .newview__navbar button:hover {
-  background-color: rgba(33, 140, 117, 0.8078431373);
+  background-color: var(--color-subtext-hover);
 }
 .newview__navbar .newview__navbar-links {
   display: flex;

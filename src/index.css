@@ -3,5 +3,17 @@
 :root {
   --font-family: "Manrope", sans-serif;
 
+  /* --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%); */
+  --gradient-text: linear-gradient(
+    89.97deg,
+    rgba(204, 142, 53, 1) 1.84%,
+    rgba(33, 140, 116, 1) 102.67%
+  );
+
   --color-bg: #051410;
+  --color-text: #33d9b2;
+  --color-footer: #081f18;
+  --color-blog: #104639;
+  --color-subtext: #cc8e35;
+  --color-subtext-hover: #a7732b;
 }
