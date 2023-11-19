@@ -6,12 +6,20 @@
 }
 
 body {
-  background: #313131;
+  background: var(--color-bg);
 }
 
 a {
   color: unset;
   text-decoration: none;
+}
+
+.gradient__bg {
+  background: radial-gradient(
+    circle at 3% 25%,
+    rgba(16, 70, 57, 1) 0%,
+    rgba(5, 20, 16, 1) 100%
+  );
 }
 
 /* SECTION SPACE */

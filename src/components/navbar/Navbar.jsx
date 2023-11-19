@@ -7,18 +7,18 @@ import "./navbar.css";
 const Menu = () => {
   return (
     <>
-      <p>
-        <a href="#wgpt3">Produtos</a>
-      </p>
-      <p>
-        <a href="#features">Experiências VR</a>
-      </p>
-      <p>
-        <a href="#possibility">Tecnologia VR</a>
-      </p>
-      <p>
-        <a href="#blog">Comunidade</a>
-      </p>
+        <p>
+          <a href="#wgpt3">Produtos</a>
+        </p>
+        <p>
+          <a href="#features">Experiências VR</a>
+        </p>
+        <p>
+          <a href="#possibility">Tecnologia VR</a>
+        </p>
+        <p>
+          <a href="#blog">Comunidade</a>
+        </p>
     </>
   );
 };

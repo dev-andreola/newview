@@ -1,8 +1,21 @@
+// NAVBAR
+
 .newview__navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem 6rem;
+  // TABLET MEDIA QUERIES
+  @media screen and (max-width: 700px) {
+    padding: 2rem 4rem;
+  }
+  // MOBILE MEDIA QUERIES
+  @media screen and (max-width: 550px) {
+    padding: 2rem;
+  }
+
+  // ALL PARAGRAPHS IN THE NAVBAR
+
   p {
     color: #fff;
     font-family: var(--font-family);
@@ -18,6 +31,9 @@
       color: #8bbeb4;
     }
   }
+
+  // ALL BUTTONS IN THE NAVBAR
+
   button {
     padding: 0.5rem 1rem;
     color: #fff;
@@ -36,17 +52,17 @@
       background-color: #218c75ce;
     }
   }
-  @media screen and (max-width: 700px) {
-    padding: 2rem 4rem;
-  }
-  @media screen and (max-width: 550px) {
-    padding: 2rem;
-  }
+
+  // NAVBAR LOGO AND LINKS
+
   .newview__navbar-links {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex: 1;
+
+    // NAVBAR LOGO
+
     .newview__navbar-links_logo {
       margin-right: 2rem;
       img {
@@ -54,32 +70,46 @@
         height: 50px;
       }
     }
+
+    // NAVBAR LINK LIST
+
     .newview__navbar-links_container {
       display: flex;
+      // LAPTOP MEDIA QUERIES
       @media screen and (max-width: 1050px) {
         display: none;
       }
     }
   }
+
+  // NAVBAR SIGN BUTTONS
+
   .newview__navbar-sign {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    // MOBILE MEDIA QUERIES
     @media screen and (max-width: 550px) {
       display: none;
     }
   }
 
+  // NAVBAR MOBILE MENU
+
   .newview__navbar-menu {
     margin-left: 1rem;
     display: none;
     position: relative;
-    svg {
-      cursor: pointer;
-    }
+    // LAPTOP MEDIA QUERIES
     @media screen and (max-width: 1050px) {
       display: flex;
     }
+    svg {
+      cursor: pointer;
+    }
+
+    // NAVBAR MOBILE MENU LINK LIST
+
     .newview__navbar-menu_container {
       display: flex;
       justify-content: flex-end;
@@ -95,21 +125,31 @@
       min-width: 210px;
       border-radius: 5px;
       box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+      // MOBILE MEDIA QUERIES
+      @media screen and (max-width: 550px) {
+        top: 20px;
+      }
       p {
         margin: 1rem 0;
       }
       hr {
+        display: none;
         width: 100%;
         height: 2px;
         background-color: #00000017;
         border: none;
-      }
-      @media screen and (max-width: 550px) {
-        top: 20px;
+        //MOBILE MEDIA QUERIES
+        @media screen and (max-width: 550px) {
+          display: block;
+        }
       }
     }
+
+    // NAVBAR MOBILE MENU SIGN BUTTONS
+
     .newview__navbar-menu_container-links-sign {
       display: none;
+      // MOBILE MEDIA QUERIES
       @media screen and (max-width: 550px) {
         display: block;
       }
