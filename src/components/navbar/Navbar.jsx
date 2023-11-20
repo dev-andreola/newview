@@ -12,7 +12,7 @@ const Menu = () => {
         <a href="#exp">Experiências VR</a>
       </p>
       <p>
-        <a href="#features">Tecnologia VR</a>
+        <a href="#tec">Tecnologia VR</a>
       </p>
       <p>
         <a href="#possibility">Comunidade</a>

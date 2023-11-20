@@ -6,19 +6,19 @@ const Brand = () => {
   return (
     <div className="section__padding newview__brand">
       <div>
+        <img src={gramercy} />
+      </div>
+      <div>
         <img src={google} />
       </div>
       <div>
-        <img src={gramercy} />
+        <img src={subvrsive} />
       </div>
       <div>
         <img src={meta} />
       </div>
       <div>
         <img src={groove} />
-      </div>
-      <div>
-        <img src={subvrsive} />
       </div>
     </div>
   );
