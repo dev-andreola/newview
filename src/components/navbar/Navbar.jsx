@@ -4,25 +4,27 @@ import logo from "../../assets/logo.svg";
 
 import "./navbar.css";
 
+// NAVBAR LINK LIST
 const Menu = () => {
   return (
     <>
-        <p>
-          <a href="#wgpt3">Produtos</a>
-        </p>
-        <p>
-          <a href="#features">Experiências VR</a>
-        </p>
-        <p>
-          <a href="#possibility">Tecnologia VR</a>
-        </p>
-        <p>
-          <a href="#blog">Comunidade</a>
-        </p>
+      <p>
+        <a href="#wgpt3">Experiências VR</a>
+      </p>
+      <p>
+        <a href="#features">Tecnologia VR</a>
+      </p>
+      <p>
+        <a href="#possibility">Comunidade</a>
+      </p>
+      <p>
+        <a href="#blog">Blog</a>
+      </p>
     </>
   );
 };
 
+// NAVBAR SIGN BUTTONS
 const Sign = () => {
   return (
     <>
@@ -37,19 +39,26 @@ const Navbar = () => {
 
   return (
     <div className="newview__navbar">
+      {/* NAVBAR LOGO AND LINK LIST */}
       <div className="newview__navbar-links">
+        {/* NAVBAR LOGO */}
         <div className="newview__navbar-links_logo">
           <a href="#">
             <img src={logo} />
           </a>
         </div>
+        {/* NAVBAR LINK LIST */}
         <div className="newview__navbar-links_container">
           <Menu />
         </div>
       </div>
+      {/* NAVBAR SIGN BUTTONS */}
       <div className="newview__navbar-sign">
         <Sign />
       </div>
+      {/*  */}
+      {/* NAVBAR MOBILE MENU */}
+      {/*  */}
       <div className="newview__navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
@@ -66,10 +75,12 @@ const Navbar = () => {
         )}
         {toggleMenu && (
           <div className="newview__navbar-menu_container scale-up-center">
+            {/* NAVBAR MOBILE MENU LINK LIST */}
             <div className="newview__navbar-menu_container-links">
               <Menu />
             </div>
-            <hr/>
+            <hr />
+            {/* NAVBAR MOBILE MENU SIGN BUTTONS */}
             <div className="newview__navbar-menu_container-links-sign">
               <Sign />
             </div>

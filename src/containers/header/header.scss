@@ -1,9 +1,15 @@
+// HEADER
+
 .newview__header {
   display: flex;
   flex-direction: row;
+  // LAPTOP MEDIA QUERIES
   @media screen and (max-width: 1050px) {
     flex-direction: reverse;
   }
+
+  // HEADER LEFT SIDE
+
   .newview__header-content {
     margin-right: 5rem;
     flex: 1;
@@ -11,24 +17,29 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    // LAPTOP MEDIA QUERIES
     @media screen and (max-width: 1050px) {
       margin: 0 0 3rem;
     }
+    // HEADER TITLE
     h1 {
       font-family: var(--font-family);
       font-weight: 800;
       font-size: 62px;
       line-height: 75px;
       letter-spacing: -0.04em;
+      // TABLET MEDIA QUERIES
       @media screen and (max-width: 650px) {
         font-size: 48px;
         line-height: 60px;
       }
+      // MOBILE MEDIA QUERIES
       @media screen and (max-width: 490px) {
         font-size: 36px;
         line-height: 48px;
       }
     }
+    // HEADER PARAGRAPH
     p {
       margin-top: 1.5rem;
       font-family: var(--font-family);
@@ -36,15 +47,20 @@
       font-size: 20px;
       line-height: 28px;
       color: var(--color-text);
+      // TABLET MEDIA QUERIES
       @media screen and (max-width: 650px) {
         font-size: 16px;
         line-height: 24px;
       }
+      // MOBILE MEDIA QUERIES
       @media screen and (max-width: 490px) {
         font-size: 14px;
         line-height: 24px;
       }
     }
+
+    // HEADER INPUT AND BUTTON
+
     .newview__header-content__input {
       width: 100%;
       margin: 2rem 0 1rem;
@@ -65,10 +81,12 @@
         color: #fff;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
+        // TABLET MEDIA QUERIES
         @media screen and (max-width: 650px) {
           font-size: 16px;
           line-height: 24px;
         }
+        // MOBILE MEDIA QUERIES
         @media screen and (max-width: 490px) {
           font-size: 12px;
           line-height: 16px;
@@ -93,16 +111,21 @@
         &:hover {
           background: var(--color-subtext-hover);
         }
+        // TABLET MEDIA QUERIES
         @media screen and (max-width: 650px) {
           font-size: 16px;
           line-height: 24px;
         }
+        // MOBILE MEDIA QUERIES
         @media screen and (max-width: 490px) {
           font-size: 12px;
           line-height: 16px;
         }
       }
     }
+
+    // HEADER PEOPLE ACCESS
+
     .newview__header-content__people {
       margin-top: 2rem;
       width: 100%;
@@ -110,6 +133,7 @@
       flex-direction: row;
       justify-content: flex-start;
       align-items: center;
+      // TABLET MEDIA QUERIES
       @media screen and (max-width: 650px) {
         flex-direction: column;
       }
@@ -128,11 +152,14 @@
         white-space: nowrap;
         @media screen and (max-width: 650px) {
           margin: 0;
-          white-space: unset;          
+          white-space: unset;
         }
       }
     }
   }
+
+  // RIGHT SIDE IMAGE
+
   .newview__header-image {
     flex: 1;
     display: flex;
