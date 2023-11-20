@@ -4,7 +4,7 @@
 }
 @media screen and (max-width: 1050px) {
   .newview__header {
-    flex-direction: column;
+    flex-direction: reverse;
   }
 }
 .newview__header .newview__header-content {

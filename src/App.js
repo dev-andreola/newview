@@ -1,4 +1,5 @@
 import "./App.css";
+import Brand from "./components/brand/Brand";
 import Navbar from "./components/navbar/Navbar";
 import Header from "./containers/header/Header";
 
@@ -9,6 +10,7 @@ function App() {
         <Navbar />
         <Header />
       </div>
+      <Brand />
     </div>
   );
 }
