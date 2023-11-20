@@ -15,7 +15,7 @@ const Menu = () => {
         <a href="#tec">Tecnologia VR</a>
       </p>
       <p>
-        <a href="#possibility">Comunidade</a>
+        <a href="#com">Comunidade</a>
       </p>
       <p>
         <a href="#blog">Blog</a>
