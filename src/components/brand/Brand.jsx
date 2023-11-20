@@ -4,7 +4,7 @@ import "./brand.css";
 
 const Brand = () => {
   return (
-    <div className="newview__brand section__padding">
+    <div className="section__padding newview__brand">
       <div>
         <img src={google} />
       </div>

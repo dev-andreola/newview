@@ -9,7 +9,7 @@ const Menu = () => {
   return (
     <>
       <p>
-        <a href="#wgpt3">Experiências VR</a>
+        <a href="#exp">Experiências VR</a>
       </p>
       <p>
         <a href="#features">Tecnologia VR</a>
