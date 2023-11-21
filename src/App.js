@@ -1,13 +1,13 @@
 import "./App.css";
-import Brand from "./components/brand/Brand";
-import Cta from "./components/cta/Cta";
-import Navbar from "./components/navbar/Navbar";
-import Blog from "./containers/blog/Blog";
-import Comunity from "./containers/comunity/Comunity";
-import Experiences from "./containers/experiences/Experiences";
-import Footer from "./containers/footer/Footer";
-import Header from "./containers/header/Header";
-import Tecnology from "./containers/tecnology/Tecnology";
+import {
+  Footer,
+  Blog,
+  Comunity,
+  Tecnology,
+  Experiences,
+  Header,
+} from "./containers";
+import { Cta, Brand, Navbar } from "./components";
 
 function App() {
   return (
