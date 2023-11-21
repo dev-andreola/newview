@@ -42,6 +42,7 @@
   font-weight: 500;
   font-family: var(--font-family);
   margin-top: 2rem;
+  text-decoration: underline;
 }
 @media screen and (max-width: 550px) {
   .newview__tecnology .newview__tecnology-heading p {

@@ -78,4 +78,6 @@
 }
 .newview__comunity .newview__comunity-content h4:last-child {
   color: var(--color-subtext);
+  text-decoration: underline;
+  cursor: pointer;
 }/*# sourceMappingURL=comunity.css.map */

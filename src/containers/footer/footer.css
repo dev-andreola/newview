@@ -86,6 +86,12 @@
     margin: 1rem 0;
   }
 }
+.newview__footer .newview__footer-links div:last-child p {
+  cursor: text;
+}
+.newview__footer .newview__footer-links div:last-child p:hover {
+  color: #fff;
+}
 .newview__footer .newview__footer-links .newview__footer-links_logo {
   display: flex;
   flex-direction: column;
@@ -134,6 +140,10 @@
   color: #fff;
   margin: 0.5rem 0;
   cursor: pointer;
+  transition: 0.3s;
+}
+.newview__footer .newview__footer-links .newview__footer-links_div p:hover {
+  color: #d1d1d1;
 }
 .newview__footer .newview__footer-copyright {
   margin-top: 2rem;

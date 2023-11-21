@@ -71,6 +71,14 @@
       @media screen and (max-width: 550px) {
         margin: 1rem 0;
       }
+      &:last-child {
+        p {
+          cursor: text;
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
     }
     .newview__footer-links_logo {
       display: flex;
@@ -115,6 +123,10 @@
         color: #fff;
         margin: 0.5rem 0;
         cursor: pointer;
+        transition: 0.3s;
+        &:hover {
+          color: #d1d1d1;
+        }
       }
     }
   }
