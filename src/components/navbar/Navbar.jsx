@@ -1,30 +1,36 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/logo.svg";
 
 import "./navbar.css";
 
-// NAVBAR LINK LIST
-const Menu = () => {
+const Menu = ({ closeMenu }) => {
   return (
     <>
       <p>
-        <a href="#exp">Experiências VR</a>
+        <a href="#exp" onClick={closeMenu}>
+          Experiências VR
+        </a>
       </p>
       <p>
-        <a href="#tec">Tecnologia VR</a>
+        <a href="#tec" onClick={closeMenu}>
+          Tecnologia VR
+        </a>
       </p>
       <p>
-        <a href="#com">Comunidade</a>
+        <a href="#com" onClick={closeMenu}>
+          Comunidade
+        </a>
       </p>
       <p>
-        <a href="#blog">Blog</a>
+        <a href="#blog" onClick={closeMenu}>
+          Blog
+        </a>
       </p>
     </>
   );
 };
 
-// NAVBAR SIGN BUTTONS
 const Sign = () => {
   return (
     <>
@@ -37,29 +43,37 @@ const Sign = () => {
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
+  const closeMenu = () => {
+    setToggleMenu(false);
+  };
+
+  useEffect(() => {
+    document.addEventListener("click", closeMenu);
+    return () => {
+      document.removeEventListener("click", closeMenu);
+    };
+  }, []);
+
+  const handleMenuClick = (e) => {
+    e.stopPropagation();
+  };
+
   return (
     <div className="newview__navbar">
-      {/* NAVBAR LOGO AND LINK LIST */}
       <div className="newview__navbar-links">
-        {/* NAVBAR LOGO */}
         <div className="newview__navbar-links_logo">
           <a href="#">
-            <img src={logo} />
+            <img src={logo} alt="Logo" />
           </a>
         </div>
-        {/* NAVBAR LINK LIST */}
         <div className="newview__navbar-links_container">
           <Menu />
         </div>
       </div>
-      {/* NAVBAR SIGN BUTTONS */}
       <div className="newview__navbar-sign">
         <Sign />
       </div>
-      {/*  */}
-      {/* NAVBAR MOBILE MENU */}
-      {/*  */}
-      <div className="newview__navbar-menu">
+      <div className="newview__navbar-menu" onClick={handleMenuClick}>
         {toggleMenu ? (
           <RiCloseLine
             color="#fff"
@@ -75,12 +89,10 @@ const Navbar = () => {
         )}
         {toggleMenu && (
           <div className="newview__navbar-menu_container scale-up-center">
-            {/* NAVBAR MOBILE MENU LINK LIST */}
             <div className="newview__navbar-menu_container-links">
-              <Menu />
+              <Menu closeMenu={() => setToggleMenu(false)} />
             </div>
             <hr />
-            {/* NAVBAR MOBILE MENU SIGN BUTTONS */}
             <div className="newview__navbar-menu_container-links-sign">
               <Sign />
             </div>
