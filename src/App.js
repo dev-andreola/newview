@@ -5,6 +5,7 @@ import Navbar from "./components/navbar/Navbar";
 import Blog from "./containers/blog/Blog";
 import Comunity from "./containers/comunity/Comunity";
 import Experiences from "./containers/experiences/Experiences";
+import Footer from "./containers/footer/Footer";
 import Header from "./containers/header/Header";
 import Tecnology from "./containers/tecnology/Tecnology";
 
@@ -23,6 +24,7 @@ function App() {
         <Cta />
         <Blog />
       </div>
+      <Footer />
     </div>
   );
 }
