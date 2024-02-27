@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# New View VR
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="src/assets/readme-banner.jpg" align="center"/>
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+Web development project in which the idea was to create a landing page for a fictional virtual reality technology company called NewViewVR. The fully responsive website has several call-to-action buttons and a menu for navigation.
 
-### `npm start`
+Still in the development process...
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[View Project](https://newview.vercel.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## :man_mechanic: Linguagens e Ferramentas
 
-### `npm test`
+- Javascript
+- React
+- Sass
+- Git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :paintbrush: Layout
 
-### `npm run build`
+### :desktop_computer: Desktop
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="src/assets/readme-layout-desktop.jpg"/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### :iphone: Mobile
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src="src/assets/readme-layout-mobile.jpg" />
 
-### `npm run eject`
+## :computer: Dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```shell
+# 1. Clone the project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git clone https://github.com/dev-andreola/newview
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# 2. Install dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm install
 
-## Learn More
+# 3. Run live server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## :triangular_flag_on_post: Contribute to the project
 
-### Code Splitting
+The content **may contain some errors** as I am a student and the repository is constantly evolving.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-### Analyzing the Bundle Size
+If you have any corrections or improvements that would make this better, please fork the repo and create a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/Feature`)
+3. Commit your Changes (`git commit -m 'Add some Feature'`)
+4. Push to the Branch (`git push origin feature/Feature`)
+5. Open a Pull Request
