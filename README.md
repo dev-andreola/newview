@@ -10,7 +10,7 @@ Still in the development process...
 
 [View Project](https://newview.vercel.app/)
 
-## :man_mechanic: Linguagens e Ferramentas
+## :man_mechanic: Languages and Tools
 
 - Javascript
 - React
